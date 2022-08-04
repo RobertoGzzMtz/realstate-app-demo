@@ -1,0 +1,168 @@
+@media only screen and (max-width: 1024px) {
+  .pageTitle {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    padding: 0 0 20% 0;
+    text-align: center;
+    color: #ab853e;
+  }
+
+  .pageTitle h1 {
+    margin: 0 auto;
+    font-size: 200%;
+  }
+
+  .pageTitle h2 {
+    font-size: 150%;
+  }
+  .pageTitle h3 {
+    font-size: 150%;
+  }
+
+  .pageTitle p {
+    text-align: justify;
+    padding: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
+  .pageTitle a {
+    padding: 2%;
+    width: 40%;
+    border-radius: 10px;
+    color: white;
+    background-color: #ab853e;
+  }
+
+  .pageTitle a:hover {
+    background-color: #5a4112;
+  }
+
+  .pageTitle img {
+    width: 50%;
+    border-radius: 50%;
+    padding: 3%;
+    margin-bottom: 10px;
+  }
+
+  .skills {
+    border-radius: 3%;
+    display: flexbox;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 60px auto;
+    color: #454d4d;
+    width: 80%;
+    background: linear-gradient(45deg, #3a3a3a 27.51%, #818184 113.53%);
+  }
+
+  .skills ul {
+    align-items: center;
+    list-style: none;
+    border-radius: 12px;
+    padding: 30px;
+  }
+
+  .skills h5 {
+    color: rgb(241, 156, 20);
+    font-weight: bold;
+    font-size: 21px;
+  }
+
+  .skills li {
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .pageTitle {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px 0;
+    padding: 0 0 20% 0;
+
+    text-align: center;
+    color: #ab853e;
+  }
+
+  .pageTitle h1 {
+    margin: 0 auto;
+    font-size: 300%;
+  }
+
+  .pageTitle h2 {
+    font-size: 200%;
+  }
+  .pageTitle h3 {
+    font-size: 200%;
+  }
+
+  .pageTitle p {
+    font-size: 150%;
+    text-align: justify;
+    margin: 5% 20% 0 20%;
+  }
+
+  .pageTitle a {
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    font-size: 150%;
+    background-color: #ab853e;
+  }
+
+  .pageTitle a:hover {
+    background-color: #5a4112;
+  }
+
+  .pageTitle img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 3%;
+    margin-bottom: 10px;
+  }
+
+  .skills {
+    border-radius: 3%;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 60px auto;
+    color: #454d4d;
+    width: 80%;
+    background: linear-gradient(45deg, #3a3a3a 27.51%, #818184 113.53%);
+  }
+
+  .skills ul {
+    align-items: center;
+    list-style: none;
+    border-radius: 12px;
+    padding: 30px;
+  }
+
+  .skills h5 {
+    color: rgb(241, 156, 20);
+    font-weight: bold;
+    font-size: 150%;
+  }
+
+  .skills li {
+    color: whitesmoke;
+    font-size: 120%;
+    line-height: 40px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .pageTitle p {
+    font-size: 150%;
+    text-align: justify;
+    margin: 3% 10% 0 10%;
+  }
+}

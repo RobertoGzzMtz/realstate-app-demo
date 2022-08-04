@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@400&display=swap");
+
+@font-face {
+  font-family: "Boston";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Boston Regular"),
+    url("/src/fonts/BostonRegular.woff") format("woff");
+}
+
+body {
+  font-family: "Boston", "Montserrat";
+}
+
+/* main {
+  text-align: center;
+  margin: 200px 0;
+  box-sizing: border-box;
+} */
